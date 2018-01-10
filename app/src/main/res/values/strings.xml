@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">first_application</string>
+
+
+    <string name="first_button">PLAY</string>
+
+    <string name="first_image" />
+
+
+</resources>

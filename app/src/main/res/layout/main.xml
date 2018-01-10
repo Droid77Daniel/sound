@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.marcoandrei.first_aplication.Main">
+
+
+    <ImageView
+        android:id="@+id/first_image"
+        android:layout_width="256dp"
+        android:layout_height="149dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/first_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/my_logo" />
+
+    <Button
+        android:id="@+id/first_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="94dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/button_background"
+        android:contentDescription="@string/first_button"
+        android:text="@string/first_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/first_image"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>
